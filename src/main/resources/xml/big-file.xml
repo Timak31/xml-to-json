@@ -1,0 +1,1377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FlowBasedConstraintDocument DtdRelease="4" DtdVersion="0" xmlns="flowbased" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flowbasedconstraintdocument-20.xsd">
+  <DocumentIdentification v="17XTSO-CS------W-20200306FSCCBv1"/>
+  <DocumentVersion v="1"/>
+  <DocumentType v="B06"/>
+  <ProcessType v="A01"/>
+  <SenderIdentification codingScheme="A01" v="17XTSO-CS------W"/>
+  <SenderRole v="A36"/>
+  <ReceiverIdentification codingScheme="A01" v="10XFR-RTE------Q"/>
+  <ReceiverRole v="A04"/>
+  <CreationDateTime v="2020-11-30T09:46:25Z"/>
+  <ConstraintTimeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+  <Domain codingScheme="A01" v="10Y1001C--00059P"/>
+    <criticalBranches>
+        <criticalBranch id="50H_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D8-BRANCH-EIC001" from="D8BAE_11" to="D8SM__11" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D8</tsoOrigin>
+            <outage id="50H_CO_00001" name="D8-CO-50H0001" location="D8-D8">
+                <branch from="D8KRUE12" to="DKR_KR11" order="1" eic="D8-50H-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="50H_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D8-BRANCH-EIC002" from="D8BAZ_32" to="D8BAZ_31" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D8</tsoOrigin>
+            <outage id="50H_CO_00002" name="D8-CO-50H0002" location="D8-D8">
+                <branch from="D8VIE_12" to="D8VIE_13" order="1" eic="D8-50H-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="50H_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D8-BRANCH-EIC003" from="D8BOXB11" to="D8BAE_12" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D8</tsoOrigin>
+            <outage id="50H_CO_00003" name="D8-CO-50H0003" location="D8-D8">
+                <branch from="D8WU__23" to="D8WU__2H" elementName="494H_WU" eic="D8-50H-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="AMP_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D7-BRANCH-EIC001" from="D7BABA5B" to="D7HOMB5A" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D7</tsoOrigin>
+            <outage id="AMP_CO_00001" name="D7-CO-AMP0001" location="D7-D7">
+                <branch from="D7UTFO1C" to="D7WALS1B" order="1" eic="D7-AMP-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="AMP_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D7-BRANCH-EIC002" from="D7A83071" to="D7A8302B" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D7</tsoOrigin>
+            <outage id="AMP_CO_00002" name="D7-CO-AMP0002" location="D7-D7">
+                <branch from="D7WITT5A" to="D7YWIT5W" order="1" eic="D7-AMP-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="AMP_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D7-BRANCH-EIC003" from="D7ENSD1A" to="D7UCHT1B" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D7</tsoOrigin>
+            <outage id="AMP_CO_00003" name="D7-CO-AMP0003" location="D7-D7">
+                <branch from="D7PETE1C" to="D7ROKI1C" elementName="PETER S" eic="D7-AMP-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="AT_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="AT-BRANCH-EIC001" from="OPETER21" to="OSALZB21" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>AT</tsoOrigin>
+            <outage id="APG_CO_00001" name="AT-CO-APG0001" location="AT-AT">
+                <branch from="OBISAM21" to="ODUERN21" order="2" eic="AT-APG-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="AT_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="AT-BRANCH-EIC001" from="O9KIRB21" to="O9STRA21" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>AT</tsoOrigin>
+            <outage id="APG_CO_00002" name="AT-CO-APG0002" location="AT-AT">
+                <branch from="OGMUND51" to="OOHLSD51" order="1" eic="AT-APG-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="AT_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="AT-BRANCH-EIC003" from="OHAUSR51" to="OHAUSR22" order="4"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>AT</tsoOrigin>
+            <outage id="APG_CO_00003" name="AT-CO-APG0003" location="AT-AT">
+                <branch from="OZELL 21" to="OZELL 22" elementName="ZZCPL2" eic="AT-APG-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="BE_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="BE-BRANCH-EIC001" from="BFAFER31" to="BMONCE31" order="1"  name="[AT-AT] Albertirsa - God [DIR]1"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>BE</tsoOrigin>
+            <outage id="BE_CO_00001" name="BE-CO-ELIA0001" location="BE-DE">
+                <hvdcVH from="BLIXHE11" to="XLI_OB1B" eic="BE-HVDC-00000001"/>
+                <hvdcVH from="D7OBZI1A" to="XLI_OB1A" eic="BE-HVDC-00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="BE_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="BE-BRANCH-EIC002" from="BLACRO37" to="BLACRO39"  elementName="LACRO150 T 1" name="[AT-AT] Albertirsa - God [DIR]1"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>BE</tsoOrigin>
+            <outage id="BE_CO_00002" name="BE-CO-ELIA0002" location="BE-BE">
+                <branch from="BAALST31" to="BNINO+3R" order="9" eic="BE-ELIA-00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="BE_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="BE-BRANCH-EIC002" from="BZBINT3R" to="BZEEBR32" order="3"  name="[AT-AT] Albertirsa - God [DIR]1"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>BE</tsoOrigin>
+            <outage id="BE_CO_00003" name="BE-CO-ELIA0003" location="BE-BE">
+                <branch from="BAUBAN22" to="BAUBAN21" elementName="AUBAN220 //" eic="BE-ELIA-00000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="CZ_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="CZ-BRANCH-EIC001" from="CALB__1D" to="XAL_DB11" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>CZ</tsoOrigin>
+            <outage id="CEPS_CO_00001" name="CZ-CO-CEPS0001" location="CZ-CZ">
+                <branch from="CLICD_52" to="CLTJI_52" order="1" eic="CZ-CEPS-00000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="CZ_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="CZ-BRANCH-EIC002" from="CCHR__12" to="CCHR__53" order="2"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>CZ</tsoOrigin>
+            <outage id="CEPS_CO_00002" name="CZ-CO-CEPS0002" location="CZ-CZ">
+                <branch from="CALB__1C" to="CALB__1A" order="1" eic="CZ-CEPS-00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="CZ_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="CZ-BRANCH-EIC003" from="CHUV__52" to="CLSN__51" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>CZ</tsoOrigin>
+            <outage id="CEPS_CO_00003" name="CZ-CO-CEPS0003" location="CZ-CZ">
+                <branch from="CPJI__51" to="CREP__55" elementName="V1922:1" eic="CZ-CEPS-00000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="ELES_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="SI-BRANCH-EIC001" from="LBERIC2 " to="LKLECE2 " order="2"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>SI</tsoOrigin>
+            <outage id="ELES_CO_00001" name="SI-CO-ELES0001" location="SI-SI">
+                <branch from="LBERIC1 " to="LKRSKO1 " order="1" eic="SI-ELES-00000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="ELES_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="SI-BRANCH-EIC002" from="LOKROG1 " to="LBERIC1 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>SI</tsoOrigin>
+            <outage id="ELES_CO_00002" name="SI-CO-ELES0002" location="SI-SI">
+                <branch from="LDIVAC11" to="LBERIC1 " order="1" eic="SI-ELES-00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="ELES_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="SI-BRANCH-EIC003" from="LMARIB1 " to="LKRSKO1 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>SI</tsoOrigin>
+            <outage id="ELES_CO_00003" name="SI-CO-ELES0003" location="SI-SI">
+                <branch from="LMARIB1 " to="LKRSKO1 " elementName="MAR-KRS400 1" eic="SI-ELES-00000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="HOPS_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="HR-BRANCH-EIC001" from="HBILIC2 " to="HKONJS2 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>HR</tsoOrigin>
+            <outage id="HOPS_CO_00001" name="HR-CO-HOPS0001" location="HR-HR">
+                <branch from="HBRINJ2 " to="HMRACL2 " order="1" eic="HR-HOPS-00000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="HOPS_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="HR-BRANCH-EIC002" from="HKONJS2 " to="HKONJS1 " order="2"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>HR</tsoOrigin>
+            <outage id="HOPS_CO_00002" name="HR-CO-HOPS0002" location="HR-HR">
+                <branch from="HMELIN2 " to="HPEHLI2 " order="1" eic="HR-HOPS-00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="HOPS_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="HR-BRANCH-EIC003" from="HTUMBR1 " to="HZERJA1 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>HR</tsoOrigin>
+            <outage id="HOPS_CO_00003" name="HR-CO-HOPS0003" location="HR-HR">
+                <branch from="HTUMBR1 " to="HZERJA1 " order="1" eic="HR-HOPS-00000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="HU_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="HU-BRANCH-EIC001" from="MAISA 11" to="MGOD  12" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>HU</tsoOrigin>
+            <outage id="HU_CO_00001" name="HU-CO-MAVIR0001" location="HU-HU">
+                <branch from="MSZICS41" to="MDUVA 41" order="2" eic="HU-MAVIR00000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="HU_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="HU-BRANCH-EIC002" from="MPANKT41" to="MSZGO 41" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>HU</tsoOrigin>
+            <outage id="HU_CO_00002" name="HU-CO-MAVIR0002" location="HU-HU">
+                <branch from="MBICSD11" to="MGONYU11" order="1" eic="HU-MAVIR00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="HU_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="HU-BRANCH-EIC003" from="MVAC  41" to="MRETS 41" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>HU</tsoOrigin>
+            <outage id="HU_CO_00003" name="HU-CO-MAVIR0003" location="HU-HU">
+                <branch from="MAISA 11" to="MSZOL 11" order="1" eic="HU-MAVIR00000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="PSE_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="PL-BRANCH-EIC001" from="ZWRZ3221" to="ZXJL3221" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>PL</tsoOrigin>
+            <outage id="PSE_CO_00001" name="PL-CO-PSE0001" location="PL-PL">
+                <branch from="ZABR2221" to="ZSTW2221" order="1" eic="PL-PSE-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="PSE_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="PL-BRANCH-EIC002" from="ZLUA3221" to="ZSIE3222" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>PL</tsoOrigin>
+            <outage id="PSE_CO_00002" name="PL-CO-PSE0002" location="PL-PL">
+                <branch from="ZPIO1151" to="ZPAI1151" order="1" eic="PL-PSE-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="PSE_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="PL-BRANCH-EIC003" from="ZRAD2151" to="ZRAD2221" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>PL</tsoOrigin>
+            <outage id="PSE_CO_00003" name="PL-CO-PSE0003" location="PL-PL">
+                <branch from="ZDUN5412" to="ZDAW5411" order="1" eic="PL-PSE-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="RTE_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="FR-BRANCH-EIC001" from="FAVELI11" to="FAVELI15" order="1"  name="[D7-D7] Buerstadt  - Lambsheim BUERST W [DIR] / N-1 Aubange - Moulaine 513"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>FR</tsoOrigin>
+            <outage id="RTE_CO_00001" name="FR-CO-RTE0001" location="FR-FR">
+                <branch from="FALBER23" to="FMALGO21" order="1" eic="FR-RTE-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="RTE_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="FR-BRANCH-EIC002" from="FAVELI12" to="FMASTA13" order="2"  name="[D7-D7] Buerstadt  - Y Waldlaubersheim  SOONWD O [DIR] / N-1 Achene - Lonny 19"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>FR</tsoOrigin>
+            <outage id="RTE_CO_00002" name="FR-CO-RTE0002" location="FR-FR">
+                <branch from="FARGOE15" to="FCHEVA11" order="2" eic="FR-RTE-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="RTE_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="FR-BRANCH-EIC003" from="F1MION11" to="FMIONS23" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>FR</tsoOrigin>
+            <outage id="RTE_CO_00003" name="FR-CO-RTE0003" location="FR-FR">
+                <branch from="FB.MON21" to="FZCBAU21" elementName="B.MON61ZCBAU" eic="FR-RTE-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="SEPS_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="SK-BRANCH-EIC001" from="QBOSA_1 " to="QVARI_1 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>SK</tsoOrigin>
+            <outage id="SEPS_CO_00001" name="SK-CO-SEPS0001" location="SK-SK">
+                <branch from="QBYST_2 " to="QKRIZ_21" order="1" eic="SK-SEPS-00000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="SEPS_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="SK-BRANCH-EIC002" from="QGABC_1 " to="QGABC_12" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>SK</tsoOrigin>
+            <outage id="SEPS_CO_00002" name="SK-CO-SEPS0002" location="SK-SK">
+                <branch from="QPBIS_1 " to="QSTUP_1 " order="1" eic="SK-SEPS-00000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="SEPS_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="SK-BRANCH-EIC003" from="QHZDA_1 " to="QSUCA_1 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>SK</tsoOrigin>
+            <outage id="SEPS_CO_00003" name="SK-CO-SEPS0003" location="SK-SK">
+                <branch from="QLEME_21" to="QEVO1_22" order="1" eic="SK-SEPS-00000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TEL_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="RO-BRANCH-EIC001" from="RCONS15 " to="RLUMI_5 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>RO</tsoOrigin>
+            <outage id="TEL_CO_00001" name="RO-CO-TEL0001" location="RO-RO">
+                <branch from="RBRTM_5 " to="RRISN_5 " order="1" eic="RO-TEL-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TEL_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="RO-BRANCH-EIC002" from="RBRASB5 " to="RBRAS41 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>RO</tsoOrigin>
+            <outage id="TEL_CO_00002" name="RO-CO-TEL0002" location="RO-RO">
+                <branch from="RDUMB25 " to="RDUMB_5 " order="1" eic="RO-TEL-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TEL_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="RO-BRANCH-EIC003" from="RARA4D1 " to="RARAD22 " order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>RO</tsoOrigin>
+            <outage id="TEL_CO_00002" name="RO-CO-TEL0002" location="RO-RO">
+                <branch from="RDUMB25 " to="RDUMB_5 " order="1" eic="RO-TEL-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TNG_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D4-BRANCH-EIC001" from="D43BRS11" to="D43BRS12" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D4</tsoOrigin>
+            <outage id="TNG_CO_00001" name="D4-CO-TNG0001" location="D4-D4">
+                <branch from="D4KUPZ13" to="D4SLDR15" order="1" eic="D4-TNG-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TNG_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D4-BRANCH-EIC002" from="D43BRS14" to="XWE_BR12" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D4</tsoOrigin>
+            <outage id="TNG_CO_00002" name="D4-CO-TNG0002" location="D4-D4">
+                <branch from="D4OB7 11" to="D4OBJT1U" order="1" eic="D4-TNG-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TNG_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D4-BRANCH-EIC003" from="D4BRUK5I" to="D4BRUK11" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D4</tsoOrigin>
+            <outage id="TNG_CO_00003" name="D4-CO-TNG0003" location="D4-D4">
+                <branch from="D4HOEP11" to="D4HUEF14" elementName="HOEGEHUE" eic="D4-TNG-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TTG_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D2-BRANCH-EIC001" from="D2SI  24" to="D2SI-N52" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D2</tsoOrigin>
+            <outage id="TTG_CO_00001" name="D2-CO-TTG0001" location="D2-D2">
+                <branch from="D2YERZ24" to="D2LEHR21" order="1" eic="D2-TTG-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TTG_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D2-BRANCH-EIC002" from="D2YALF11" to="D2DOLL11" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D2</tsoOrigin>
+            <outage id="TTG_CO_00002" name="D2-CO-TTG0002" location="D2-D2">
+                <branch from="D2CONO11" to="D2CONO19" order="1" eic="D2-TTG-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TTG_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="D2-BRANCH-EIC003" from="D2LEHR22" to="D2LEHR51" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>D2</tsoOrigin>
+            <outage id="TTG_CO_00003" name="D2-CO-TTG0003" location="D2-D2">
+                <branch from="D2ZOL 51" to="D2ZOL 52" elementName="D2ZOL 5K" eic="D2-TTG-000000003"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TTN_CBID_000001" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="NL-BRANCH-EIC001" from="NBEEK 3B" to="NBEEK 3A" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>false</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>NL</tsoOrigin>
+            <outage id="TTN_CO_00001" name="NL-CO-TTN0001" location="NL-NL">
+                <branch from="NZYV222B" to="NHSW222B" order="1" eic="NL-TTN-000000001"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TTN_CBID_000002" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="NL-BRANCH-EIC002" from="NBL1105B" to="NVO1105A" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>false</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>NL</tsoOrigin>
+            <outage id="TTN_CO_00002" name="NL-CO-TTN0002" location="NL-NL">
+                <branch from="NVLN1537" to="NVLN153C" order="1" eic="NL-TTN-000000002"/>
+            </outage>
+        </criticalBranch>
+        <criticalBranch id="TTN_CBID_000003" >
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <branch eic="NL-BRANCH-EIC003" from="NDTO153A" to="NRSD153B" order="1"  name="[AT-AT] Albertirsa - God [DIR]"/>
+            <imaxFactor>1</imaxFactor>
+            <imaxType>SEASONAL</imaxType>
+            <permanentImaxFactor>1</permanentImaxFactor>
+            <temporaryImaxFactor>1</temporaryImaxFactor>
+            <frmMw>138</frmMw>
+            <minRAMfactor>70</minRAMfactor>
+            <CNEC>true</CNEC>
+            <MNEC>true</MNEC>
+            <direction>DIRECT</direction>
+            <tsoOrigin>NL</tsoOrigin>
+            <outage id="TTN_CO_00003" name="NL-CO-TTN0003" location="NL-NL">
+                <branch from="NAMLD 5A" to="NAMLT 5A" elementName="AMLT-AMLD110" eic="NL-TTN-000000003"/>
+            </outage>
+        </criticalBranch>
+    </criticalBranches>
+    <complexVariants>
+        <complexVariant id="RA_AT_0001" name="PRA_PST_AT_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>AT</tsoOrigin>
+            <actionsSet name="PRA_PST_EHRHU1">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>APG_CO_00001</afterCOId>
+                  <afterCOId>APG_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="OERNST52" to="OERNST21"  elementName="EHRHU1"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_AT_0002" name="CRA_AT_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>AT</tsoOrigin>
+            <actionsSet name="CRA_AT_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>APG_CO_00001</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="OKLAUS21" to="OPYHRN21" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_BE_0001" name="PRA_PST_Vaneyck_1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>BE</tsoOrigin>
+            <actionsSet name="PRA_PST_Vaneyck_1">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>BE_CO_00001</afterCOId>
+                  <afterCOId>BE_CO_00002</afterCOId>
+                  <afterCOId>BE_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="BVANYK17" to="BVANYK15"  elementName="VANYK380 D 1"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_BE_0002" name="CRA_BE_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>BE</tsoOrigin>
+            <actionsSet name="CRA_BE_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>BE_CO_00001</afterCOId>
+                  <afterCOId>BE_CO_00002</afterCOId>
+                  <afterCOId>BE_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="BAVLGM31" to="BRUIEN33"  elementName="DI 150 167 A"/>
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_CZ_0001" name="PRA_PST_CZ_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>CZ</tsoOrigin>
+            <actionsSet name="PRA_PST_C:KLT:T402">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>CEPS_CO_00001</afterCOId>
+                  <afterCOId>CEPS_CO_00002</afterCOId>
+                  <afterCOId>CEPS_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="CKLT__12" to="CKLT__52"  elementName="C:KLT:T402"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_CZ_0002" name="CRA_CZ_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>CZ</tsoOrigin>
+            <actionsSet name="CRA_CZ_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>CEPS_CO_00001</afterCOId>
+                  <afterCOId>CEPS_CO_00002</afterCOId>
+                  <afterCOId>CEPS_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="CVITH_51" to="CVRE__51" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D2_0001" name="PRA_PST_D2_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D2</tsoOrigin>
+            <actionsSet name="PRA_PST_T212">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>TTG_CO_00001</afterCOId>
+                  <afterCOId>TTG_CO_00002</afterCOId>
+                  <afterCOId>TTG_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="D2LBEC22" to="D2LBEC51"  elementName="T212"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D2_0002" name="CRA_D2_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D2</tsoOrigin>
+            <actionsSet name="CRA_D2_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>TTG_CO_00001</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="D2WG  51" to="D2MUEN53" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D4_0001" name="PRA_PST_D4_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D4</tsoOrigin>
+            <actionsSet name="PRA_PST_BMT311">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>TNG_CO_00001</afterCOId>
+                  <afterCOId>TNG_CO_00002</afterCOId>
+                  <afterCOId>TNG_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="D4ENGS5I" to="D4ENGS12"  elementName="BMT311"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D4_0002" name="CRA_D4_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D4</tsoOrigin>
+            <actionsSet name="CRA_D4_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>TNG_CO_00001</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="D4GRKR5I" to="D4GRKR5J" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D7_0001" name="PRA_PST_D7_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D7</tsoOrigin>
+            <actionsSet name="PRA_PST_TR BL10">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>AMP_CO_00001</afterCOId>
+                  <afterCOId>AMP_CO_00002</afterCOId>
+                  <afterCOId>AMP_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="D7GEIT71" to="D7GEIT1A"  elementName="TR BL10"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D7_0002" name="CRA_D7_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D7</tsoOrigin>
+            <actionsSet name="CRA_D7_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>AMP_CO_00001</afterCOId>
+                  <afterCOId>AMP_CO_00002</afterCOId>
+                  <afterCOId>AMP_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="D7GARE5A" to="D7HERD5A" order="2" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D8_0001" name="PRA_PST_D8_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D8</tsoOrigin>
+            <actionsSet name="PRA_PST_401">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>50H_CO_00001</afterCOId>
+                  <afterCOId>50H_CO_00002</afterCOId>
+                  <afterCOId>50H_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="D8KLM_11" to="D8KLM_51"  elementName="403"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_D8_0002" name="CRA_D8_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>D8</tsoOrigin>
+            <actionsSet name="CRA_D8_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>50H_CO_00001</afterCOId>
+                  <afterCOId>50H_CO_00002</afterCOId>
+                  <afterCOId>50H_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="D8BA__35" to="D8BWW_32" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_FR_0001" name="PRA_PST_FR_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>FR</tsoOrigin>
+            <actionsSet name="PRA_PST_WEPPEY761">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>RTE_CO_00001</afterCOId>
+                  <afterCOId>RTE_CO_00002</afterCOId>
+                  <afterCOId>RTE_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="FWEPPE11" to="FWEPPE21" order="2" />
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_FR_0002" name="CRA_FR_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>FR</tsoOrigin>
+            <actionsSet name="CRA_FR_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>RTE_CO_00001</afterCOId>
+                  <afterCOId>RTE_CO_00002</afterCOId>
+                  <afterCOId>RTE_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="FA.COM21" to="FZBXV621" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_HR_0001" name="PRA_PST_HR_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>HR</tsoOrigin>
+            <actionsSet name="PRA_PST_1">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>HOPS_CO_00001</afterCOId>
+                  <afterCOId>HOPS_CO_00002</afterCOId>
+                  <afterCOId>HOPS_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="HMELIN2 " to="HMELIN1 " order="1" />
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_HR_0002" name="CRA_HR_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>HR</tsoOrigin>
+            <actionsSet name="CRA_HR_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>HOPS_CO_00001</afterCOId>
+                  <afterCOId>HOPS_CO_00002</afterCOId>
+                  <afterCOId>HOPS_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="HTUMBR1 " to="HZERJA1 " order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_HU_0001" name="PRA_PST_HU_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>HU</tsoOrigin>
+            <actionsSet name="PRA_PST_HU_RA1_order2">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>HU_CO_00001</afterCOId>
+                  <afterCOId>HU_CO_00002</afterCOId>
+                  <afterCOId>HU_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="MBICSD11" to="MBICSD41" order="1" />
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_HU_0002" name="CRA_HU_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>HU</tsoOrigin>
+            <actionsSet name="CRA_BE_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>HU_CO_00001</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="MSAFA 41" to="MSZEG 41" order="2" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_PL_0001" name="PRA_PST_PL_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>PL</tsoOrigin>
+            <actionsSet name="PRA_PST_ADA-A1">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>PSE_CO_00001</afterCOId>
+                  <afterCOId>PSE_CO_00002</afterCOId>
+                  <afterCOId>PSE_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="ZADA4151" to="ZADA4221"  elementName="ADA-A1"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_PL_0002" name="CRA_PL_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>PL</tsoOrigin>
+            <actionsSet name="CRA_PL_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>PSE_CO_00001</afterCOId>
+                  <afterCOId>PSE_CO_00002</afterCOId>
+                  <afterCOId>PSE_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="ZBIR3152" to="ZKAT3152" order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_RO_0001" name="PRA_PST_RO_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>RO</tsoOrigin>
+            <actionsSet name="PRA_PST_1">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>TEL_CO_00001</afterCOId>
+                  <afterCOId>TEL_CO_00002</afterCOId>
+                  <afterCOId>TEL_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="RBARB_5 " to="RBARB22 " order="1" />
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_RO_0002" name="CRA_RO_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>RO</tsoOrigin>
+            <actionsSet name="CRA_RO_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>TEL_CO_00001</afterCOId>
+                  <afterCOId>TEL_CO_00002</afterCOId>
+                  <afterCOId>TEL_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="RMEDN_5 " to="RMEDI_5 " order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_SI_0001" name="PRA_PST_SI_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>SI</tsoOrigin>
+            <actionsSet name="PRA_PST_DIV400 TR441">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>ELES_CO_00001</afterCOId>
+                  <afterCOId>ELES_CO_00002</afterCOId>
+                  <afterCOId>ELES_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="LDIVAC11" to="LDIVAC12"  elementName="DIV400 TR441"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_SI_0002" name="CRA_SI_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>SI</tsoOrigin>
+            <actionsSet name="CRA_SI_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>ELES_CO_00001</afterCOId>
+                  <afterCOId>ELES_CO_00002</afterCOId>
+                  <afterCOId>ELES_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="LMARIB1 " to="LKRSKO1 " order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_SK_0001" name="PRA_PST_SK_RA1">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>SK</tsoOrigin>
+            <actionsSet name="PRA_PST_LEMER">
+                <preventive>true</preventive>
+                <curative>false</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>SEPS_CO_00001</afterCOId>
+                  <afterCOId>SEPS_CO_00002</afterCOId>
+                  <afterCOId>SEPS_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="PSTTAP">
+                    <branch from="QLEME_21" to="QMLEME5 "  elementName="LEMER"/>
+                    <range>
+                      <min>-6</min>
+                      <max>6</max>
+                    </range>
+                    <relativeRange>
+                      <min>-4</min>
+                      <max>4</max>
+                    </relativeRange>
+                </action>
+            </actionsSet>
+        </complexVariant>
+        <complexVariant id="RA_SK_0002" name="CRA_SK_RA_002">
+            <timeInterval v="2020-03-05T23:00Z/2020-03-06T23:00Z"/>
+            <tsoOrigin>SK</tsoOrigin>
+            <actionsSet name="CRA_SK_RA_002">
+                <preventive>false</preventive>
+                <curative>true</curative>
+                <enforced>false</enforced>
+                <afterCOList>
+                  <afterCOId>SEPS_CO_00001</afterCOId>
+                  <afterCOId>SEPS_CO_00002</afterCOId>
+                  <afterCOId>SEPS_CO_00003</afterCOId>
+                </afterCOList>
+                <action type="STATUS">
+                    <branch from="QMALZ_1 " to="QKRIZ_1 " order="1" />
+                    <value>OPEN</value>
+                </action>
+            </actionsSet>
+        </complexVariant>
+    </complexVariants>
+</FlowBasedConstraintDocument>

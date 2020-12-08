@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MergingLog xmlns="flowbased" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="flowbased flowbasedmerginglog-01.xsd">
+	<DocumentIdentification v="10X1001C--00003T-20190330-F123v1"/>
+	<DocumentVersion v="1"/>
+	<DocumentType v="A18"/>
+	<ProcessType v="A01"/>
+	<SenderIdentification codingScheme="A01" v="10X1001C--00003T"/>
+	<SenderRole v="A44"/>
+	<ReceiverIdentification codingScheme="A01" v="17XTSO-CS------W"/>
+	<ReceiverRole v="A36"/>
+	<CreationDateTime v="2019-04-26T07:36:05Z"/>
+	<ReportTimeInterval v="2019-03-29T23:00Z/2019-03-30T23:00Z"/>
+	<Domain codingScheme="A01" v="10Y1001C--00059P"/>
+	<TimeSeries>
+		<TimeSeriesIdentification v="1"/>
+		<Period>
+			<TimeInterval v="2019-03-29T23:00Z/2019-03-30T23:00Z"/>
+			<Resolution v="PT60M"/>
+			<Interval>
+				<Pos v="1"/>
+				<MergingReport>
+					<!--ORIGINALLY <BCIactive v="true"/>-->
+					<BCIactive>true</BCIactive>
+					<!--ORIGINALLY <MergeType v="AC"/>-->
+					<MergeType>AC</MergeType>
+					<!-- LOG FOR CORE HUB -->
+					<Report id="10YBE----------2" name="Belgium" typeInfo="CORE">
+						<BCI>
+							<BCIapplied>TRUE</BCIapplied>
+							<!-- TRUE = BCI was activated, hub was outside feasibility range -->
+							<CORE_InitialNP_IGM>302</CORE_InitialNP_IGM>
+							<!-- InitialMin/MaxNP is feasibility range provided by TSO -->
+							<InitialMinNP_shift>-2000</InitialMinNP_shift>
+							<InitialMaxNP_shift>1000</InitialMaxNP_shift>
+							<!-- If FinalMin/MaxNP is different, extension of all feasibility ranges was needed -->
+							<FinalMinNP_shift>-2000</FinalMinNP_shift>
+							<FinalMaxNP_shift>1000</FinalMaxNP_shift>
+						</BCI>
+						<ReferenceProgram>
+							<Core_NPtarget_initial>1000</Core_NPtarget_initial>
+							<Core_NPtarget_final>2000</Core_NPtarget_final>
+							<Global_NPtarget_initial>1000</Global_NPtarget_initial>
+							<Global_NPtarget_final>-500</Global_NPtarget_final>
+						</ReferenceProgram>
+						<LoadFlow>
+							<IGM>
+								<Generation>2000</Generation>
+								<Load>3000</Load>
+								<GlobalBalance>-1000</GlobalBalance>
+							</IGM>
+							<CGM>
+								<Generation>2500</Generation>
+								<Load>3000</Load>
+								<GlobalBalance>-500</GlobalBalance>
+							</CGM>
+						</LoadFlow>
+					</Report>
+					<!-- LOG FOR NON CORE HUB -->
+					<Report id="10YIT-GRTN-----B" name="Italy" typeInfo="nonCORE">
+						<ReferenceProgram>
+							<Global_NPtarget_initial>500</Global_NPtarget_initial>
+							<Global_NPtarget_final>500</Global_NPtarget_final>
+						</ReferenceProgram>
+						<LoadFlow>
+							<IGM>
+								<Generation>10000</Generation>
+								<Load>10000</Load>
+								<GlobalBalance>0</GlobalBalance>
+							</IGM>
+							<CGM>
+								<Generation>10000</Generation>
+								<Load>9510</Load>
+								<GlobalBalance>490</GlobalBalance>
+							</CGM>
+						</LoadFlow>
+					</Report>
+					<!-- LOG FOR IGM TSO -->
+					<Report id="10YDE-RWENET---I" name="Amprion" typeInfo="TSO">
+						<LoadFlow>
+							<IGM>
+								<Generation>2000</Generation>
+								<Load>3000</Load>
+								<GlobalBalance>-1000</GlobalBalance>
+							</IGM>
+							<CGM>
+								<Generation>2500</Generation>
+								<Load>3000</Load>
+								<GlobalBalance>-500</GlobalBalance>
+							</CGM>
+						</LoadFlow>
+					</Report>
+					<!-- FLOW REPORT ON SI-IT -->
+					<SI-IT_Report>
+						<!--ORIGINALLY <From id="" name="SI"/>-->
+						<!--ORIGINALLY <To id="" name="IT"/>-->
+						<InArea codingScheme="A01" v="10YIT-GRTN-----B"/>
+						<OutArea codingScheme="A01" v="10YSI-ELES-----O"/>
+						<AppliedProcedure>2</AppliedProcedure>
+						<TargetFlow>
+							<TotalFlow>800</TotalFlow>
+							<FlowDivacaPadriciano>150</FlowDivacaPadriciano>
+							<FlowDivacaRedipuglia>650</FlowDivacaRedipuglia>
+						</TargetFlow>
+						<BeforeTargetFlowCGM>
+							<TotalFlow>448.4</TotalFlow>
+							<FlowDivacaPadriciano>75.8</FlowDivacaPadriciano>
+							<FlowDivacaRedipuglia>372.6</FlowDivacaRedipuglia>
+							<TapsPadriciano>14</TapsPadriciano>
+							<TapsDivaca>0</TapsDivaca>
+						</BeforeTargetFlowCGM>
+						<AfterTargetFlowCGM>
+							<TotalFlow>804.1</TotalFlow>
+							<FlowDivacaPadriciano>163.6</FlowDivacaPadriciano>
+							<FlowDivacaRedipuglia>640.7</FlowDivacaRedipuglia>
+							<TapsPadriciano>-8</TapsPadriciano>
+							<TapsDivaca>14</TapsDivaca>
+						</AfterTargetFlowCGM>
+					</SI-IT_Report>
+				</MergingReport>
+			</Interval>
+			<Interval>
+				<Pos v="2"/>
+			</Interval>
+			<Interval>
+				<Pos v="3"/>
+			</Interval>
+			<Interval>
+				<Pos v="4"/>
+			</Interval>
+			<Interval>
+				<Pos v="5"/>
+			</Interval>
+			<Interval>
+				<Pos v="6"/>
+			</Interval>
+			<Interval>
+				<Pos v="7"/>
+			</Interval>
+			<Interval>
+				<Pos v="8"/>
+			</Interval>
+			<Interval>
+				<Pos v="9"/>
+			</Interval>
+			<Interval>
+				<Pos v="10"/>
+			</Interval>
+			<Interval>
+				<Pos v="11"/>
+			</Interval>
+			<Interval>
+				<Pos v="12"/>
+			</Interval>
+			<Interval>
+				<Pos v="13"/>
+			</Interval>
+			<Interval>
+				<Pos v="14"/>
+			</Interval>
+			<Interval>
+				<Pos v="15"/>
+			</Interval>
+			<Interval>
+				<Pos v="16"/>
+			</Interval>
+			<Interval>
+				<Pos v="17"/>
+			</Interval>
+			<Interval>
+				<Pos v="18"/>
+			</Interval>
+			<Interval>
+				<Pos v="19"/>
+			</Interval>
+			<Interval>
+				<Pos v="20"/>
+			</Interval>
+			<Interval>
+				<Pos v="21"/>
+			</Interval>
+			<Interval>
+				<Pos v="22"/>
+			</Interval>
+			<Interval>
+				<Pos v="23"/>
+			</Interval>
+			<Interval>
+				<Pos v="24"/>
+			</Interval>
+		</Period>
+	</TimeSeries>
+</MergingLog>
